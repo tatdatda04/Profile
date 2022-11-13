@@ -59,7 +59,7 @@ img{
 
 .card p{
     color: var(--primary-color);
-    font-size: 23;
+    font-size: 22;
 }
 
 .card__social{
@@ -99,9 +99,9 @@ img{
 }
 
 .icon{
-    margin: 3% 42%;
+    margin: -12% 42%;
     cursor: pointer;
-    position:relative ;
+    position: relative ;
 }
 
 .icon i{
@@ -155,8 +155,4 @@ img{
 
 a{
     text-decoration: none;
-}
-
-*{
-      
 }
