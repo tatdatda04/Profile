@@ -9,7 +9,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -28,8 +27,8 @@ body{
 
 .card{
     background: #242628;
-    width: 350px;
-    height: 680px;
+    width: 300px;
+    height: 450px;
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
@@ -59,7 +58,6 @@ img{
 
 .card p{
     color: var(--primary-color);
-    font-size: 22;
 }
 
 .card__social{
@@ -69,7 +67,7 @@ img{
 .card__social a{
     color: white;
     margin: 25px 20px;
-    font-size: 20px;
+    font-size: 33px;
 }
 
 .card__social a:hover{
@@ -96,63 +94,4 @@ img{
     border-radius: unset;
     transform: unset;
     border: none;
-}
-
-.icon{
-    margin: -12% 42%;
-    cursor: pointer;
-    position: relative ;
-}
-
-.icon i{
-    height: 60px;
-    width: 60px;
-    border-radius: 30%;
-    background: linear-gradient(45deg,
-    rgb(65, 88, 208) 10%,
-    rgb(200, 80, 192) 50%,
-    rgb(255, 204, 112) 100%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    font-size: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon .tooltip{
-    position: absolute;
-    top: 10;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    padding: 10px 18px;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 25px;
-    opacity: 0;
-    pointer-events: none;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-.icon .tooltip:before{
-    position: absolute;
-    content: '';
-    height: 15px;
-    width: 15px;
-    left: 50%;
-    bottom: -6px;
-    transform: translateX(-50%) rotate(45deg);
-}
-
-.tooltip,
-.icon i {
-    transition: 0.3s;
-}
-
-.icon:hover i{
-    color: rgb(255, 255, 255);
-}
-
-a{
-    text-decoration: none;
 }
